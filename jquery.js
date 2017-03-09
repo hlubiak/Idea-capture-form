@@ -4,8 +4,8 @@
          * It must have one @ and .
          */
        function validate_email(e) {
-           var reg = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-           if(!reg.test(e)) {
+           var vali = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+           if(!vali.test(e)) {
               return false;
            }else{
               return true;
